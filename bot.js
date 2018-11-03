@@ -1,13 +1,10 @@
-
-client.on('ready', () => {
 const Discord = require("discord.js");
 const RichEmbed = require("discord.js");
 const { Client, Util } = require('discord.js');
 const client = new Discord.Client();
 const prefix = "*";
-const config = require("./config.json")
 
-const devs = ["331081268731052042"]
+const devs = ["366253963768758272"]
 
 const adminprefix = "*";
 client.on('message', message => {
